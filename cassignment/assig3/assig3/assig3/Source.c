@@ -26,7 +26,7 @@ scanf_s("%d", &m);
 				printf(" subarray found between %d and %d", i, j);
 				flag = 1;
 			}
-			//
+			////
 		}
 		
 	}
