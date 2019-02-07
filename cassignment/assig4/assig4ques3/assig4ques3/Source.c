@@ -13,5 +13,6 @@ int main()
 	}
 	printf("%d", count);
 	getch();
+	//
 	return 0;
 }
