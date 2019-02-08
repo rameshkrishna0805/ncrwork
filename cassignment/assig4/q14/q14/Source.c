@@ -1,27 +1,21 @@
+
 #include<stdio.h>
 int main()
 {
-	char s[10] = "space";
-	int f = 0,l=0;
-	char arr[10];
-	for (int i = 0;s[i] != '\0';i++)
+	char s[25], temp;
+	int i = 0, j = 0, len = 0;
+	printf("Enter the string\n");
+	scanf_s("%s", s, 25);
+	len = strlen(s);
+	for (i = 0; i < len; i++)
 	{
-		l++;
-
-	}
-	int n = l;
-	for (int i = 0;i<n;i++)
-	{
-		char c;
-		int k = 0;
-		c = s[i];
-		int j = 0;
-		while(s[k] != '\0')
+		printf("%s\n", s);
+		temp = s[0];
+		for (j = 0; j < len - 1; j++)
 		{
-			arr[j++] = s[k++;]
+			s[j] = s[j + 1];
 		}
-		printf("%s", s);
-
+		s[len - 1] = temp;
 	}
 	getch();
 	return 0;
