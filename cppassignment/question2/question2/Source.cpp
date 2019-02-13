@@ -25,7 +25,7 @@ public:
 	}
 	void avg1()
 	{
-		avg = (m1 + m2 + m3) / 3;
+		avg =(m1 + m2 + m3) / 3.0f;
 	}
 	void assign()
 	{
@@ -77,7 +77,7 @@ public:
 int main()
 {
 	collegecourse c;
-	c.setdata("ramesh", 90, 90, 90);
+	c.setdata("ramesh", 90, 80, 90);
 	c.calavg();
 	c.grad();
 	c.pri();
