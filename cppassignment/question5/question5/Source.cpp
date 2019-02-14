@@ -21,7 +21,7 @@ public:
 	dist2(int m1, int cm1)
 	{
 		f = m1;
-		in = cm1;
+		in = cm1;//
 	}
 	friend void add(dist1 d,dist2 d2);
 };
