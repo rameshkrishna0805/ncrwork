@@ -24,7 +24,6 @@ int main()
 }
 
 void add(point a, point b)
-
 {
 	cout << sqrt(pow((b.x - a.x), 2) + pow((b.y - a.y), 2));
 }
