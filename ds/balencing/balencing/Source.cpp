@@ -21,7 +21,7 @@ public:
 	{
 		stk.size = n;
 		stk.s = new char[n];
-	}
+	}//
 	////
 	void push(char ele)
 	{
