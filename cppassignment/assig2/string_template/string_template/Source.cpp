@@ -86,6 +86,6 @@ int main()
 	cout << s1 << endl;
 	s1[2] = 'z';
 	cout << s2 << endl;
-	getchar();
+	getchar();//
 	return 0;
 }
