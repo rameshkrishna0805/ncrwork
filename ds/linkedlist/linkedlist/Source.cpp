@@ -144,9 +144,7 @@ void __list__::Delete_Spec(int ele)
 	else
 		cout << "List is Empty";
 }
-/*void __list__::Travel_Forward()
-{
-}*/
+
 
 int main()
 {
