@@ -149,7 +149,7 @@ void __list__::Delete_Spec(int ele)
 
 int main()
 {
-	cout << "eneter the choice";
+	cout << "eneter the choice 1:insert first  2)insert last 3)insert after 4)del first 5)del last 6) del specific\n";
 	int ch;
 	cin >> ch;
 	while (1)
@@ -159,6 +159,7 @@ int main()
 		default:
 			break;
 		case 1:
+
 			break;
 		case 2:
 			break;
