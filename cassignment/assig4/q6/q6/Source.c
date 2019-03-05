@@ -14,6 +14,8 @@ void rev(char *a)
 	{
 		return;
 	}
+	char addedToNext = *a + *(a + 1);
+	printf("%c\n", addedToNext);
 	rev(a + 1);
-	printf("%c",*a);
+//	printf("%c",*a);
 }

@@ -85,11 +85,10 @@ void add(polynomial &p1, polynomial &p2)
 		}
 	}
 }
-
 int main()
 {
 	polynomial p1, p2;
-//	p1.create(4, 3);
+	p1.create(4, 3);
 	p1.create(1, 2);
 	p1.create(2, 1);
 	p1.create(3, 0);
